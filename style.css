@@ -1,0 +1,20 @@
+main{
+    height:100%;
+}
+
+#salariobruto{
+    margin-top: 10px;
+}
+
+#botao{
+    margin-top: 10px;
+}
+
+#tabela{
+    margin-top: 10px;
+}
+
+#espaco{
+    height: 20px;
+    width:20%;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Imposto de Renda</title>
+</head>
+<body>
+    <main>
+        <form>
+            <div id="nomecompleto">
+                <label> Nome Completo: </label>
+                <input type="text" name="nome" placeholder="Nome completo " pattern="[A-Z][a-záãâéêíõôú]+( [A-Z][a-záãâéêíõôú]+)+"/>
+            </div>
+            <div id="salariobruto">
+                <label> Salário bruto:  </label>
+                <input id="brutosalario" type="number" name="nome" placeholder="Salário bruto "/>
+            </div>
+            <div id="botaosalvar"> <input onclick="corno()" id="botao" type="submit" name="salvar" value="salvar"/> </div>
+        </form>
+        <script src="imposto.js"></script>
+
+        <table border="2" id="tabela">
+                <tr>
+                <th>#</th>
+                <th>Nome</th>
+                <th>Salário Bruto</th>
+                </tr>
+                <tr>
+                <td id="espaco"></td>
+                <td id="espaco"></td>
+                <td id="espaco"></td>
+                </tr>
+                <tr>
+                <td id="espaco"></td>
+                <td id="espaco"></td>
+                <td id="espaco"></td>
+                </tr>
+                <tr>
+                <td id="espaco"></td>
+                <td id="espaco"></td>
+                <td id="espaco"></td>
+                </tr>
+        </table>
+    </main>
+</body>
+</html>
